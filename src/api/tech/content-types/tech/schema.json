@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teches",
+  "info": {
+    "singularName": "tech",
+    "pluralName": "teches",
+    "displayName": "Tech"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
